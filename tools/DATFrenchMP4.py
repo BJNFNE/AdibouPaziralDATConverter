@@ -1,5 +1,5 @@
 # This Converter convertes .DAT Files into MP4 (in French)
-# Developed by CrystalBen & DerCodeDev
+# Developed by BJNFNE
 
 import os
 
