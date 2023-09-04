@@ -5,7 +5,7 @@ import os
 
 path = './Data/'
 for filename in os.listdir(path):
-    if (filename.endswith(".dat")): #or .avi, .mpeg, whatever.
+    if (filename.endswith(".dat")): # DAT files are most likely MOV files
         os.system(f'ffmpeg -i ./Data/Resource01.dat -vf fps=fps=25 Resource01.mp4')
         os.system(f'ffmpeg -i ./Data/Resource02.dat -vf fps=fps=25 Resource02.mp4')
         os.system(f'ffmpeg -i ./Data/Resource03.dat -vf fps=fps=25 Resource03.mp4')
